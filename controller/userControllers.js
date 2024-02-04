@@ -30,6 +30,7 @@ const signUp=async(req,res)=>{
                _id:newUser._id,
                name:newUser.name,
                email:newUser.email,
+               password:newUser.password,
                pic:newUser.pic,
             })
          }else{
